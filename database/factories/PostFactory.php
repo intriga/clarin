@@ -10,8 +10,8 @@ $factory->define(Post::class, function (Faker $faker) {
     return [
         'title' => $title,
         'slug' => str_slug($title),
-        'description' => $faker->text(400),
+        'description' => $faker->text(200),
         'content' => $faker->text(900),
-        'file' => $faker->imageUrl($width = 1200, $height = 400),
+        'file' => $faker->imageUrl($width = 400, $height = 400),
     ];
 });
