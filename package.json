@@ -1,11 +1,7 @@
 {
     "private": true,
-<<<<<<< HEAD
     "scripts": {
 	"postinstall": "npm run prod",
-=======
-    "scripts": {        
->>>>>>> db2d6952c12d959a37b75f5c000ac8537fa7088b
         "dev": "npm run development",
         "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
         "watch": "npm run development -- --watch",
